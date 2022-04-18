@@ -622,6 +622,7 @@ public:
 
     bool IsPayToScriptHash() const;
     bool IsPayToPublicKeyHash() const;
+    bool IsPayToPublicKey() const;
     bool IsPayToWitnessScriptHash() const;
     bool IsWitnessProgram(int& version, std::vector<unsigned char>& program) const;
 
