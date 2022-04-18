@@ -89,7 +89,7 @@ unsigned int CalculateNextWorkRequired(const CBlockIndex* pindexLast, int64_t nF
             bnNew = bnPowLimit;
 
     /// debug print
-    LogPrintf("GetNextWorkRequired: DIGISHIELD RETARGET\n");
+    LogPrint("pow","GetNextWorkRequired: DIGISHIELD RETARGET\n");
     return bnNew.GetCompact();
 }
 
